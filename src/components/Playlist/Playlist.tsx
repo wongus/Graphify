@@ -27,7 +27,7 @@ class User extends Component<PlaylistProps> {
                                 playlist ? (
                                     <div>
                                         <h4>{playlist.name} ({playlist.owner.display_name})</h4>
-                                        <table className="table">
+                                        <table className="table text-gray-200">
                                             <thead>
                                                 <tr>
                                                     <th scope="col">Artists</th>
